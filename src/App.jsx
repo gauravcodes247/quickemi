@@ -9,6 +9,10 @@ import Navbar from "./components/Navbar";
 import BlogHowToCalculateEMI from "./components/pages/BlogHowToCalcEMI";
 import BlogPersonalVsHomeEMI from "./components/pages/BlogPErsonalvsHome";
 import BlogIndex from "./components/pages/BlogINdex";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-324PW7G5WX"); // replace with your ID
+ReactGA.send("pageview");
 
 function App() {
   return (
