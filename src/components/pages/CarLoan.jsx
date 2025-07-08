@@ -26,7 +26,10 @@ const PersonalLoan = () => {
           content="Calculate your EMI for personal, home, or car loans using our free online EMI calculator. Instant results with interest breakdown."
         />
       </Helmet>
-      <h1 className="text-3xl font-bold text-indigo-800">Car Loan EMI Calculator</h1>
+      <h1 className="text-3xl font-bold text-center mt-6">
+  EMI Calculator – Calculate Your Monthly Loan Payments
+</h1>
+
       <p className="text-lg">Estimate your monthly EMI for car loans with accurate calculations.</p>
 
       <EmiCalculator defaultRate={9.5} />
