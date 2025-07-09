@@ -36,6 +36,13 @@ export default function BlogIndex() {
           </p>
           <span className="text-cyan-400 font-medium">Read More →</span>
         </Link>
+        <Link to="/blog/current-home-loan-interestrates" className="block bg-[#1f1f1f] hover:bg-[#272727] rounded-xl p-6 transition-shadow shadow-lg hover:shadow-xl">
+          <h2 className="text-2xl font-semibold mb-2">🏦 Current Home loan interest rates</h2>
+          <p className="text-gray-400 mb-2">
+            Compare personal and home loan EMIs. Know what fits your needs based on interest rates, tenure, and EMI amounts.
+          </p>
+          <span className="text-cyan-400 font-medium">Read More →</span>
+        </Link>
       </div>
     </div>
   )

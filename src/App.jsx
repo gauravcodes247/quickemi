@@ -10,6 +10,7 @@ import BlogHowToCalculateEMI from "./components/pages/BlogHowToCalcEMI";
 import BlogPersonalVsHomeEMI from "./components/pages/BlogPErsonalvsHome";
 import BlogIndex from "./components/pages/BlogINdex";
 import ReactGA from "react-ga4";
+import Blog3 from "./components/pages/Blog3"
 
 ReactGA.initialize("G-324PW7G5WX"); // replace with your ID
 ReactGA.send("pageview");
@@ -27,6 +28,7 @@ function App() {
         <Route path="/home-loan-emi-calculator" element={<HomeLoan />} />
         <Route path="/blog/how-to-calculate-loan-emi" element={<BlogHowToCalculateEMI/>} />
          <Route path="/blog/personal-loan-vs-home-loan-emi" element={<BlogPersonalVsHomeEMI />} />
+         <Route path="/blog/current-home-loan-interestrates" element={<Blog3 />} />
       
 
   <Route path="/blog" element={<BlogIndex />} />
