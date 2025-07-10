@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
   <url>
     <loc>https://quickemi.site/</loc>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Tool Pages -->
+  <url>
+    <loc>https://quickemi.site/home-loan</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://quickemi.site/personal-loan</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://quickemi.site/car-loan</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
+  <!-- Blog Pages -->
   <url>
-    <loc>https://quickemi.site/home-loan</loc>
-  </url>
-  <url>
-    <loc>https://quickemi.site/blog</loc>
+    <loc>https://quickemi.site/blog/personal-loan-vs-home-loan-emi</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://quickemi.site/blog/how-to-calculate-loan-emi</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://quickemi.site/blog/personal-loan-vs-home-loan-emi</loc>
+    <loc>https://quickemi.site/blog/current-home-loan-interestrates</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
