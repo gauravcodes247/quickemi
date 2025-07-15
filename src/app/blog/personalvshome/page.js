@@ -1,5 +1,5 @@
 // app/blog/personal-loan-vs-home-loan-emi/page.jsx
-
+import Link from 'next/link';
 export const metadata = {
   title: "Personal Loan vs Home Loan EMI – What's the Difference? | QuickEMI",
   description:
@@ -113,7 +113,7 @@ export default function BlogPersonalVsHomeEMI() {
       <p className="mt-8">
         🙌 <strong>Use our calculators</strong> to compare EMI options and make smart borrowing decisions.
         <br />
-        Visit our <a href="/" className="text-cyan-400 underline">Home Page</a> to explore!
+        Visit our <Link href="/" className="text-cyan-400 underline">Home Page</Link> to explore!
       </p>
     </div>
     </>
