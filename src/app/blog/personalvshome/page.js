@@ -12,9 +12,12 @@ export const metadata = {
     canonical: "https://quickemi.site/blog/personal-loan-vs-home-loan-emi",
   },
 };
+import Navbar from '@/app/components/navbar';
 
 export default function BlogPersonalVsHomeEMI() {
   return (
+    <>
+    <Navbar/>
     <div className="max-w-3xl mx-auto px-4 py-10 text-gray-900">
       <h1 className="text-3xl md:text-4xl font-bold mb-6">
         Personal Loan vs Home Loan EMI – What’s the Difference?
@@ -113,5 +116,6 @@ export default function BlogPersonalVsHomeEMI() {
         Visit our <a href="/" className="text-cyan-400 underline">Home Page</a> to explore!
       </p>
     </div>
+    </>
   );
 }

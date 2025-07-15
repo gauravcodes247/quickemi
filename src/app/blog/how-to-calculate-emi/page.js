@@ -7,25 +7,27 @@ export const metadata = {
 import Navbar from '@/app/components/navbar';
 export default function BlogHowToCalculateEMI() {
   return (
+    <>
+    <Navbar/>
     <div className="max-w-3xl mx-auto px-4 py-10 bg-white text-gray-900">
       <Head>
         <title>How to Calculate Loan EMI Easily - QuickEMI</title>
         <meta
           name="description"
           content="Learn how to calculate your loan EMI using a simple formula or our free online EMI calculator tool. Quick, easy, and accurate!"
-        />
+          />
         <meta
           name="keywords"
           content="calculate EMI, loan EMI formula, EMI calculator, EMI calculation example, QuickEMI blog"
-        />
+          />
         <meta name="author" content="QuickEMI Team" />
         <meta name="robots" content="index, follow" />
         <link
           rel="canonical"
           href="https://quickemi.site/blog/how-to-calculate-loan-emi"
-        />
+          />
       </Head>
-<Navbar/>
+
 
       <h1 className="text-3xl md:text-4xl font-bold mb-6">
         How to Calculate Your Loan EMI Easily
@@ -127,5 +129,6 @@ export default function BlogHowToCalculateEMI() {
         Contact us or leave a comment below!
       </p>
     </div>
+          </>
   );
 }
