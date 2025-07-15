@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Free EMI Calculator for Personal, Home & Car Loans | QuickEMI',
   description: 'Instantly calculate your monthly loan payments using our EMI calculator. Trusted by users to plan smartly and borrow wisely.',
 };
-
+import Navbar from '@/app/components/navbar';
 export default function BlogHowToCalculateEMI() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-10 bg-white text-gray-900">
@@ -25,6 +25,7 @@ export default function BlogHowToCalculateEMI() {
           href="https://quickemi.site/blog/how-to-calculate-loan-emi"
         />
       </Head>
+<Navbar/>
 
       <h1 className="text-3xl md:text-4xl font-bold mb-6">
         How to Calculate Your Loan EMI Easily
